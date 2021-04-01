@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+  }
+  body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: white;background-image: url(https://www.itl.cat/pngfile/big/43-432529_hunter-x-hunter-wallpapers-hisoka-wallpaper-hd-desktop.jpg);
+  }
+  
+  .sb{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.397);
+    animation: colo 3s infinite;
+  } 
+  @keyframes colo{
+    0%{background-color: rgba(224, 12, 207, 0.397);}
+    50%{background-color: rgba(0, 0, 0, 0.397);}
+    100%{background-color: rgba(11, 253, 43, 0.13);}
+  }
+  
+  input {
+    padding: 3px;
+    border: none;
+  }
+  .valor{
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 90px;
+  
+   
+  }
+  .convertido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  p{
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 11px;
+    width: 100vw;
+    height: 100%;
+  }
